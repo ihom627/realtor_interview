@@ -1,0 +1,31 @@
+Interview Problem
+For this problem we want to understand the candidates ability to utilize python to:
+
+Load data
+Explore data
+Prepare for modeling
+Create a model to predict species_short
+Critique the model's output
+Just a quick note about the data:
+
+The culmen is the upper ridge of a bird’s bill. In the simplified penguins data, culmen length and depth are renamed as variables bill_length_mm and bill_depth_mm to be more intuitive.
+
+To Load Data
+import pandas as pd
+penguins = pd.read_csv("https://github.com/ihom627/realtor_interview/penguins_modified.csv")
+
+
+Exercises TODO:
+
+STEP1) Explore Data
+
+STEP2) Use summary statistics and/or plots to understand what the data looks like.
+
+STEP3) Prepare Data for Modeling
+
+STEP4) Transform the data into a state that can be consumed by the chosen model.
+
+STEP5) Create a model to predict species_short. Please note that 2 hours are allotted for this activity.
+
+STEP6) Critique Model, Now that we have trained a model, we want the ability to tell if the model is performing well.
+
